@@ -1,0 +1,33 @@
+{
+  "name": "line-bot-sdk-python",
+  "description": "Master",
+  "scripts": {
+  },
+  "env": {
+    "LANG": {
+      "required": true
+    },
+    "LINE_CHANNEL_SECRET": {
+      "required": true
+    },
+    "LINE_CHANNEL_TOKEN": {
+      "required": true
+    },
+    "LINE_TEST_USER_ID": {
+      "required": true
+    },
+    "RACK_ENV": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
